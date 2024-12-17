@@ -22,38 +22,26 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/jewel1269/ray-advertizing.git>
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd <project-folder>
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-   or
-   ```bash
-   yarn install
-   ```
+
 
 ## Running the Project
 
 Start the development server:
 
 ```bash
-npm start
+npm run dev
+```
+ start
 ```
 
-or
-
-```bash
-yarn start
-```
-
-This will launch the app in your default browser at `http://localhost:3000`.
+This will launch the app in your default browser at `http://localhost:5173`.
 
 ## Project Structure
 
@@ -77,12 +65,6 @@ Run the test suite with:
 npm test
 ```
 
-or
-
-```bash
-yarn test
-```
-
 ## Building for Production
 
 Create an optimized build for production:
@@ -91,11 +73,6 @@ Create an optimized build for production:
 npm run build
 ```
 
-or
-
-```bash
-yarn build
-```
 
 The build output will be located in the `build` directory.
 
@@ -121,5 +98,7 @@ The build output will be located in the `build` directory.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
+
+special note: Firstly download node.js, after then setup node environment then clone main project and after clone then open in vs code project and do command nmp install then nmp run dev.
 
 Happy coding!
