@@ -1,18 +1,19 @@
-import ContactForm from "../ContactForm/ContactForm";
-import Footer from "../Footer/Footer";
-import { InsuranceSection } from "../InsuranceSection/InsuranceSection";
-import Services from "../Services/Services";
-import Header from "./DefaultHomePage/Header/Header";
+import AboutSections from "../AboutSections/AboutSection";
+import AutoInsurance from "../Banner/AutoInsurance.Banner";
+import DisclaimerSection from "../DisclaimerSection/DisclaimerSection";
+import InsuranceAgentCard from "../InsuranceAgentCard/InsuranceAgentCard";
+import KeyBenefits from "../KeyBenefits/KeyBenefits";
+import WhyChoose from "../WhyChoose/WhyChoose";
 
 const HomePage = () => {
   return (
     <>
-      <Header />
-
-      <Services />
-      <InsuranceSection />
-      <ContactForm/>
-      <Footer/>
+      <AutoInsurance />
+      <AboutSections />
+      <KeyBenefits />
+      <WhyChoose />
+      <InsuranceAgentCard />
+      <DisclaimerSection />
     </>
   );
 };
